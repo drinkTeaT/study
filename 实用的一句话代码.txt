@@ -1,0 +1,8 @@
+// 刷新该html，子页面就是局部刷新
+window.location.reload()
+
+// 父页面刷新
+window.parent.location.reload()
+
+// 获取data-自定义参数的值
+$('#abc').data("自定义参数")

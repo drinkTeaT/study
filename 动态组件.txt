@@ -1,0 +1,20 @@
+<script id="script-component" type="text/x-jquery-tmpl">
+${name}
+{{each product}}
+${$value.orange}
+{/each}
+<script>
+
+数据结构为
+data
+{
+name : jack ,
+product : "{"apple","orange"}
+}
+
+
+$("#script-component").tmpl(data).appendTo('#generate-prd')
+
+
+// 替换相当于innerHtml = ***
+$("#script-component").tmpl(data).replaceAll('#generate-prd')

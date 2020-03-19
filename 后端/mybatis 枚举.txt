@@ -1,0 +1,7 @@
+1 定义枚举类 MyEnum{ADIMN}
+
+2 数据库字段varchar存储MyEnum.ADMIN.toString ， 字段显示为 ADMIN
+
+3 获取可以强制转换为MyEnum
+
+4 MyEnum.valueOf("ADMIN")即数据库中的字段，又可以转换枚举了

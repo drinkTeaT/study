@@ -1,0 +1,5 @@
+文件上传位置，获取服务器目录:System.getProperty("user.home")
+
+创建目录new File(userHome + "/app/images/").mkdirs()
+
+上传文件，配置静态资源映射
