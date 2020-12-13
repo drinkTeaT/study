@@ -1,0 +1,9 @@
+1 join
+用select查出的数据，可以看做一张表。(selcet ...) r 就可以把这些查出来的数据当成r表。
+
+2 多条数据整合成一条
+可以使用group by .. having .. 分类；having可以省略。
+使用group by .. having .. 的条件。选择字段为聚合函数或group by后的字段。having 为聚合函数或group by后的字段
+
+也可以使用这种方法，在sc表中，将同一个人的三门课程合成到一行。根据select * from select table 1 , selcet table2这个属性
+会生成笛卡尔积。要解决的方法也很简单，只要配置人员id相同的过滤条件就可以了。
